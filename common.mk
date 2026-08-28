@@ -264,10 +264,6 @@ PRODUCT_PACKAGES += \
     android.hardware.hardware_keystore_V3.xml
 
 ifneq ($(TARGET_IS_TABLET),true)
-PRODUCT_PACKAGES += \
-    android.hardware.security.keymint3-service.strongbox.nxp \
-    android.hardware.weaver-service.nxp
-
 PRODUCT_SOONG_NAMESPACES += \
     hardware/nxp/keymint/generic \
     hardware/nxp/weaver/generic
