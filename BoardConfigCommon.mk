@@ -146,7 +146,8 @@ TARGET_KERNEL_EXT_MODULES := \
     qcom/opensource/spu-kernel \
     qcom/opensource/video-driver \
     qcom/opensource/wlan/platform \
-    qcom/opensource/wlan/qcacld-3.0 \
+    qcom/opensource/wlan/qcacld-3.0/.peach_v2 \
+    qcom/opensource/wlan/qcacld-3.0/.kiwi_v2 \
     qcom/opensource/bt-kernel
 
 TARGET_KERNEL_EXT_MODULES += \
