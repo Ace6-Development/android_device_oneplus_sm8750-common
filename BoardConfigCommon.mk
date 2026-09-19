@@ -148,6 +148,7 @@ TARGET_KERNEL_EXT_MODULES := \
     qcom/opensource/wlan/platform \
     qcom/opensource/wlan/qcacld-3.0/.peach_v2 \
     qcom/opensource/wlan/qcacld-3.0/.wcn7750 \
+    qcom/opensource/wlan/qcacld-3.0/.kiwi_v2 \
     qcom/opensource/bt-kernel
 
 TARGET_KERNEL_EXT_MODULES += \
